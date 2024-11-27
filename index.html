@@ -47,6 +47,29 @@
             text-align: center;
             padding: 10px 0;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f0f0f0;
+        }
+        table td {
+            background-color: white;
+        }
+        /* Para la separación de imágenes */
+        .image-container img {
+            margin-right: 20px; /* Espacio entre imágenes */
+        }
+        .image-container img:last-child {
+            margin-right: 0; /* Eliminar el margen derecho en la última imagen */
+        }
     </style>
 </head>
 <body>
@@ -107,7 +130,11 @@
                 </tr>
             </tbody>
         </table>
-        <p><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3PHHcwb8yah1KRAt9wv0prlOJ3cF8q4BCw&s" alt="CiberSeguridad" width="350"> <img src="https://play-lh.googleusercontent.com/G166NGtIsLp_UdpDjC1FF6dooIgd83fs2lstSI7mhW06q7gmiE1cw4BZ16OCX0WokPE" alt="CiberSeguridad" width="350"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq4l9IL6dpSipWtktG5nHXoV2yvh3I0PIC5g&s" alt="CiberSeguridad" width="350"> </p>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3PHHcwb8yah1KRAt9wv0prlOJ3cF8q4BCw&s" alt="CiberSeguridad" width="350">
+            <img src="https://play-lh.googleusercontent.com/G166NGtIsLp_UdpDjC1FF6dooIgd83fs2lstSI7mhW06q7gmiE1cw4BZ16OCX0WokPE" alt="CiberSeguridad" width="350">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq4l9IL6dpSipWtktG5nHXoV2yvh3I0PIC5g&s" alt="CiberSeguridad" width="350">
+        </div>
     </section>
 
     <footer>
